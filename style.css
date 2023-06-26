@@ -1,0 +1,11 @@
+/*body{
+    background-image: url("don't have yet");
+}*/
+.inline{
+    display: flex;
+    justify-content: center;
+}
+/*make list not bulleted*/
+ul{
+    list-style-type: none;
+  }
