@@ -1,10 +1,16 @@
 /*body{
     background-image: url("don't have yet");
 }*/
+html{
+    height: 100vh;
+}
 /* flexbox contents */
 .inline{
     display: flex;
     justify-content: center;
+    align-content: center;
+    margin-top: 40vh;
+    margin-bottom: 40vh;
 }
 /*make list not bulleted and flex*/
 ul{
@@ -13,4 +19,8 @@ ul{
   }
 li{
     padding:4px;
+}
+.pfp{
+    width:5vw;
+    height:5vw;
 }
