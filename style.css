@@ -16,9 +16,9 @@ html{
 ul{
     list-style-type: none;
     display: flex;
-  }
+}
 li{
-    padding:4px;
+    padding:10px;
 }
 .pfp{
     width:5vw;
