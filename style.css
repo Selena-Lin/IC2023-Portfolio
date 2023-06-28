@@ -1,8 +1,7 @@
 /* Only use this css page for index.html page to avoid confusion */
 html{
-    /* set to width/height of screen */
-    height: 100vh;
-    width:100vw;
+    max-height:100vh;
+    max-width: 100vw;
 }
 /* bgp */
 body{
@@ -61,10 +60,22 @@ li{
     margin-top: 40vh;
     margin-bottom: 40vh;
 }
+/* centerpiece */
 .center{
     width:15vw;
     height:30vh;
     display: center;
     align-content: center;
     margin-top: 35vh;
+}
+/* button */
+.button{
+
+    position: fixed;
+    bottom:25%;
+    right: 45%;
+}
+.cbutton{
+    width:140px;
+    height:50px;
 }
