@@ -1,6 +1,8 @@
 /* Only use this css page for index.html page to avoid confusion */
 html{
+    /* set to width/height of screen */
     height: 100vh;
+    width:100vw;
 }
 /* bgp */
 body{
@@ -12,8 +14,6 @@ body{
     display: flex;
     justify-content: center;
     align-content: center;
-    margin-top: 40vh;
-    margin-bottom: 40vh;
 }
 /*make list not bulleted and flex*/
 ul{
@@ -39,14 +39,32 @@ li{
     border-width: 3px;
     border-color: goldenrod;
 }
+/* dull */
+.dull{
+    filter: brightness(70%);
+}
 /* possible: change bg image for red and blue to one full div to look better*/
 /* blue side */
 .blue{
     background-image: url(bgdesign/blue.png);
     background-size: cover;
+    height:20vh;
+    margin-top: 40vh;
+    margin-bottom: 40vh;
+    padding-right:5vh;
 }
 /* red side */
 .red{
     background-image: url(bgdesign/red.png);
     background-size: cover;
+    height:20vh;
+    margin-top: 40vh;
+    margin-bottom: 40vh;
+}
+.center{
+    width:15vw;
+    height:30vh;
+    display: center;
+    align-content: center;
+    margin-top: 35vh;
 }
