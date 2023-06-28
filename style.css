@@ -39,6 +39,7 @@ li{
     border-width: 3px;
     border-color: goldenrod;
 }
+/* possible: change bg image for red and blue to one full div to look better*/
 /* blue side */
 .blue{
     background-image: url(bgdesign/blue.png);
