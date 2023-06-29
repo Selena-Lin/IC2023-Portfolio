@@ -5,8 +5,12 @@ html{
 }
 /* bgp */
 body{
-    background-image: url(bgdesign/background.png);
-    background-size:cover;
+
+    background-image: url("bgp.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
 }
 /* flexbox contents */
 .inline{
@@ -45,36 +49,33 @@ li{
 /* possible: change bg image for red and blue to one full div to look better*/
 /* blue side */
 .blue{
-    background-image: url(bgdesign/blue.png);
-    background-size: cover;
+
     height:20vh;
+    align-content: center;
     margin-top: 40vh;
-    margin-bottom: 40vh;
-    padding-right:5vh;
+    padding-right: 5px;
 }
 /* red side */
 .red{
-    background-image: url(bgdesign/red.png);
-    background-size: cover;
     height:20vh;
     margin-top: 40vh;
-    margin-bottom: 40vh;
+    
 }
 /* centerpiece */
 .center{
-    width:15vw;
-    height:30vh;
-    display: center;
+    width:20vw;
+    height:34vh;
+    justify-content: center;
     align-content: center;
-    margin-top: 35vh;
+    margin-top: 32vh;
 }
 /* button */
 .button{
-
     position: fixed;
     bottom:25%;
     right: 45%;
 }
+/* fixed button position */
 .cbutton{
     width:140px;
     height:50px;
