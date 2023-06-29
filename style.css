@@ -72,8 +72,7 @@ li{
 /* button */
 .button{
     position: fixed;
-    bottom:25%;
-    right: 45%;
+    right: 45.1vw;
 }
 /* fixed button position */
 .cbutton{
