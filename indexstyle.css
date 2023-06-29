@@ -6,7 +6,7 @@ html{
 /* bgp */
 body{
 
-    background-image: url("bgp.png");
+    background-image: url("bgdesign/bgp.png");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
