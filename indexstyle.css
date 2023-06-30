@@ -34,6 +34,13 @@ li{
     /* fixes gap from inline */
     display: block;
 }
+.dullpfp{
+    width:5vw;
+    height:5vw;
+    /* fixes gap from inline */
+    display: block;
+    opacity: .5;
+}
 /* pfp that glow */
 .glow{
     box-shadow: 0 0 30px goldenrod;
@@ -43,9 +50,7 @@ li{
     border-color: goldenrod;
 }
 /* dull */
-.dull{
-    filter: brightness(70%);
-}
+
 /* possible: change bg image for red and blue to one full div to look better*/
 /* blue side */
 .blue{
@@ -70,9 +75,11 @@ li{
     margin-top: 32vh;
 }
 /* button */
-.button{
+button{
     position: fixed;
-    right: 45.1vw;
+    right: 45vw;
+    background-color: transparent;
+    border: 0;
 }
 /* fixed button position */
 .cbutton{
