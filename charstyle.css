@@ -22,8 +22,8 @@ html{
 .characters{
     position: relative;
     width: 100%;
-    text-align: center;
   }
+/* Menu display */
 .menu{
     display: flex;
     color:aliceblue;
@@ -31,6 +31,15 @@ html{
     text-align: center;
 }
 h1{
+    /* set margin between words in menu */
+    margin:2%;
+}
+/* list design */
+ul{
+    list-style-type: none;
+    display:flex;
+}
+li{
     margin:2%;
 }
   /* Position of open/close buttons*/
