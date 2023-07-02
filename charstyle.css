@@ -62,3 +62,26 @@ li{
     font-size: 40px;
     margin-top: 20%;
 }
+/* right side of screen */
+.right{
+    height:100%;
+    width:15%;
+    position: fixed;
+    margin-left: 85%;
+    top: 0;
+    background-color: black;
+}
+.avatars{
+    color: aliceblue;
+    display:flow-root;
+    align-items: center;
+    justify-content: space-around;
+}
+.others{
+    padding:10%;
+    align-items: center;
+}
+.me{
+    padding:10%;
+    align-items: center;
+}
