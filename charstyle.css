@@ -4,7 +4,12 @@ html{
     max-height:100vh;
     max-width: 100vw;
 }
-/* The Overlay (background) */
+/* body */
+body{
+    background-image: url(bgdesign/charbgp.png);
+    background-size: cover;
+}
+/* The Overlay */
 .overlay {
     /* Height & width */
     height: 100%;
