@@ -42,11 +42,30 @@ h1{
 /* list design */
 ul{
     list-style-type: none;
-    display:flex;
 }
-li{
+/* wraps character icons */
+.charicons{
+    display: flex;
+    flex-wrap: wrap;
+}
+/* makes margin around menu */
+.charmenu{
     margin:2%;
 }
+/* sets size, color, and text align for names */
+.charname{
+    color: beige;
+    font-size:16px;
+    margin-top: 0px;
+    text-align: center;
+}
+/* resize and makes "choosen" chars dimmer */
+.choosen{
+    width: 100px;
+    opacity:30%;
+    background-color: darkgrey 0.8;
+}
+
   /* Position of open/close buttons*/
 .open{
     position: fixed;
@@ -62,6 +81,7 @@ li{
     font-size: 40px;
     margin-top: 20%;
 }
+
 /* right side of screen */
 .right{
     height:100%;
@@ -73,13 +93,23 @@ li{
 }
 .avatars{
     color: aliceblue;
-    display:flow-root;
-    align-items: center;
+    display: flow-root;
     justify-content: space-around;
 }
 .others{
     padding:10%;
     align-items: center;
+}
+.confirm{
+    border-width: 3px;
+    border-style: ridge;
+    border-color: darkgoldenrod;
+    box-shadow: 0 0 15px goldenrod;
+}
+.name{
+    font-size: 16px;
+    margin: 0px;
+    text-align: center;
 }
 .me{
     padding:10%;
