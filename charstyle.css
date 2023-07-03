@@ -8,6 +8,7 @@ html{
 body{
     background-image: url(bgdesign/charbgp.png);
     background-size: cover;
+    position:fixed;
 }
 /* The Overlay */
 .overlay {
@@ -119,4 +120,7 @@ ul{
     padding:5%;
     align-items: center;
     text-align: center;
+}
+.mine{
+    height:90px;
 }
