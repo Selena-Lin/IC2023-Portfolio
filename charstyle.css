@@ -87,6 +87,20 @@ ul{
     width:100px;
 }
 
+/* skins */
+.huowu{
+    display: none;
+}
+.diaochan{
+    display: none;
+}
+.shangguan{
+    display: none;
+}
+.mozi{
+    display: none;
+}
+
   /* Position of open/close buttons*/
 .open{
     position: fixed;
@@ -102,6 +116,7 @@ ul{
     font-size: 40px;
     margin-top: 20%;
 }
+
 
 /* right side of screen */
 .right{
