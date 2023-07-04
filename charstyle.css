@@ -66,6 +66,26 @@ ul{
     opacity:30%;
     background-color: darkgrey 0.8;
 }
+/* makes stuff look the same for names */
+.menuName{
+    color:aliceblue;
+    font-size:16px;
+    margin-top: 0px;
+    text-align: center;
+}
+/* resizes menu icons */
+.profile{
+    width:100px;
+}
+.project{
+    width:100px;
+}
+.contact{
+    width:100px;
+}
+.sources{
+    width:100px;
+}
 
   /* Position of open/close buttons*/
 .open{
