@@ -23,14 +23,18 @@ let proj = document.querySelector(".project");
 let projMenu = document.querySelector(".diaochan");
 let con = document.querySelector(".contact");
 let conMenu = document.querySelector(".shangguan");
+let sou = document.querySelector(".sources");
+let souMenu = document.querySelector(".anqila");
 
 // take back to characters menu
 let charButton = document.querySelector(".char");
 
 charButton.onclick = function(){
-  charList.style.display="flex";
-  bioMenu.style.display="none";
-  projMenu.style.display="none";
+  charList.style.display= "flex";
+  bioMenu.style.display= "none";
+  projMenu.style.display= "none";
+  conMenu.style.display= "none";
+  souMenu.style.display= "none";
 }
 
 //specific to huowu
@@ -43,9 +47,11 @@ bio.onclick = function(){
   bioMenu.style.display= "flex";
   projMenu.style.display= "none";
   conMenu.style.display= "none";
+  souMenu.style.display= "none";
   bio.style.opacity= "30%";
   proj.style.opacity= "100%";
   con.style.opacity= "100%";
+  sou.style.opacity= "100%";
   //skins
   basicImg.style.opacity= "30%";
   extrac.style.opacity= "100%";
@@ -82,9 +88,11 @@ proj.onclick = function(){
   bioMenu.style.display= "none";
   projMenu.style.display= "flex";
   conMenu.style.display= "none";
-  proj.style.opacity= "30%";
+  souMeny.style.display= "none";
   bio.style.opacity= "100%";
+  proj.style.opacity= "30%";
   con.style.opacity= "100%";
+  sou.style.opacity= "100%";
   //skins
   over.style.opacity= "30%";
   u2.style.opacity= "100%";
@@ -148,26 +156,55 @@ animate.onclick = function(){
 // shangguan
 let conButton = document.querySelector(".contacts");
 let em = document.querySelector(".email");
+let insta = document.querySelector(".ins");
 
 con.onclick = function(){
   charList.style.display= "none";
   bioMenu.style.display= "none";
   projMenu.style.display= "none";
   conMenu.style.display= "flex";
+  souMenu.style.display= "none";
   bio.style.opacity= "100%";
   proj.style.opacity= "100%";
   con.style.opacity= "30%";
+  sou.style.opacity= "100%";
   //skins
   conButton.style.opacity= "30%";
   em.style.opacity= "100%";
+  insta.style.opacity= "100%";
   //change image
   document.getElementById("change").src= "menu/shangguan.webp";
 }
 conButton.onclick = function(){
   conButton.style.opacity= "30%";
   em.style.opacity= "100%";
+  insta.style.opacity= "100%";
 }
 em.onclick= function(){
   conButton.style.opacity= "100%";
   em.style.opacity= "30%";
+  insta.style.opacity= "100%";
+}
+insta.onclick = function(){
+  conButton.style.opacity= "100%";
+  em.style.opacity= "100%";
+  insta.style.opacity= "30%";
+}
+
+let souList = document.querySelector(".source");
+
+sou.onclick = function(){
+  charList.style.display= "none";
+  bioMenu.style.display= "none";
+  projMenu.style.display= "none";
+  conMenu.style.display= "none";
+  souMenu.style.display= "flex";
+  bio.style.opacity= "100%";
+  proj.style.opacity= "100%";
+  con.style.opacity= "100%";
+  sou.style.opacity= "30%";
+  //skins
+  souList.style.opacity= "30%";
+  //change image
+  document.getElementById("change").src= "menu/anqila.webp";
 }

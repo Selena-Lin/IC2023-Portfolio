@@ -149,12 +149,18 @@ ul{
 .email{
     width: 100px;
 }
+.ins{
+    width: 100px;
+}
 .anqila{
     display: none;
     flex-wrap: wrap;
     margin: 2%;
     margin-top: 5%;
     justify-content: space-around;
+}
+.source{
+    width: 100px;
 }
 
   /* Position of open/close buttons*/
@@ -175,7 +181,7 @@ ul{
     z-index: 1;
 }
 
-/* middle */
+/* middle content area*/
 .middle{
     height:100%;
     width:65%;
