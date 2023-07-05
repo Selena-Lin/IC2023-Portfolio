@@ -200,7 +200,8 @@ ul{
     position: fixed;
     margin-left: 85%;
     top: 0;
-    background-color: black;
+    background-color: rgb(56, 59, 148);
+    background-color: rgba(13, 12, 60, 0.9)
 }
 .avatars{
     color: aliceblue;
