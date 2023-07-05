@@ -68,22 +68,22 @@ let u2 = document.querySelector(".unit2");
 let u3 = document.querySelector(".unit3");
 let u5 = document.querySelector(".unit5");
 let pe = document.querySelector(".pepe");
-let ani = document.querySelector("magic");
+let animate = document.querySelector(".magic");
 
 proj.onclick = function(){
   charList.style.display= "none";
   proj.style.opacity= "30%";
   bio.style.opacity= "100%";
+  bioMenu.style.display= "none";
   projMenu.style.display= "flex";
   over.style.opacity= "30%";
   u2.style.opacity= "100%";
   u3.style.opacity= "100%";
   u5.style.opacity= "100%";
   pe.style.opacity= "100%";
-  ani.stye.opacity= "100%";
-  //Not working!!!!!
+  animate.style.opacity= "100%";
   document.getElementById("change").src = "menu/diaochan.webp";
-  bioMenu.stye.display= "none";
+
 }
 over.onclick = function(){
   over.style.opacity= "30%";
@@ -91,7 +91,7 @@ over.onclick = function(){
   u3.style.opacity= "100%";
   u5.style.opacity= "100%";
   pe.style.opacity= "100%";
-  ani.stye.opacity= "100%";
+  animate.style.opacity= "100%";
 }
 u2.onclick = function(){
   over.style.opacity= "100%";
@@ -99,7 +99,7 @@ u2.onclick = function(){
   u3.style.opacity= "100%";
   u5.style.opacity= "100%";
   pe.style.opacity= "100%";
-  ani.stye.opacity= "100%";
+  animate.style.opacity= "100%";
 }
 u3.onclick = function(){
   over.style.opacity= "100%";
@@ -107,7 +107,7 @@ u3.onclick = function(){
   u3.style.opacity= "30%";
   u5.style.opacity= "100%";
   pe.style.opacity= "100%";
-  ani.stye.opacity= "100%";
+  animate.style.opacity= "100%";
 }
 u5.onclick = function(){
   over.style.opacity= "100%";
@@ -115,7 +115,7 @@ u5.onclick = function(){
   u3.style.opacity= "100%";
   u5.style.opacity= "30%";
   pe.style.opacity= "100%";
-  ani.stye.opacity= "100%";
+  animate.style.opacity= "100%";
 }
 pe.onclick = function(){
   over.style.opacity= "100%";
@@ -123,14 +123,13 @@ pe.onclick = function(){
   u3.style.opacity= "100%";
   u5.style.opacity= "100%";
   pe.style.opacity= "30%";
-  animate.stye.opacity= "100%";
+  animate.style.opacity= "100%";
 }
-//not working!!!!!
-ani.onclick = function(){
+animate.onclick = function(){
   over.style.opacity= "100%";
   u2.style.opacity= "100%";
   u3.style.opacity= "100%";
   u5.style.opacity= "100%";
   pe.style.opacity= "100%";
-  ani.stye.opacity= "30%";
+  animate.style.opacity= "30%";
 }
