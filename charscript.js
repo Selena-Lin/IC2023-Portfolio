@@ -190,7 +190,6 @@ insta.onclick = function(){
   em.style.opacity= "100%";
   insta.style.opacity= "30%";
 }
-
 let souList = document.querySelector(".source");
 
 sou.onclick = function(){

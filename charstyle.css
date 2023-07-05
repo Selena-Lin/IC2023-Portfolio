@@ -98,10 +98,11 @@ ul{
     flex-direction: row;
     margin: 2%;
     margin-top: 5%;
-    justify-content: space-around;
+    justify-content: left;
 }
 .basic{
     width: 100px;
+    margin-right: 10px;
 }
 .extra{
     width: 100px;
@@ -157,7 +158,7 @@ ul{
     flex-wrap: wrap;
     margin: 2%;
     margin-top: 5%;
-    justify-content: space-around;
+    justify-content: left;
 }
 .source{
     width: 100px;
@@ -190,6 +191,7 @@ ul{
     top: 0;
     text-align: center;
 }
+
 
 /* right side of screen */
 .right{
