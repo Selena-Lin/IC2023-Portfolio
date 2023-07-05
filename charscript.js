@@ -25,6 +25,20 @@ let con = document.querySelector(".contact");
 let conMenu = document.querySelector(".shangguan");
 let sou = document.querySelector(".sources");
 let souMenu = document.querySelector(".anqila");
+//center content for skins
+let basicContent = document.querySelector(".biography");
+let extraContent = document.querySelector(".extracurricular");
+let whyContent = document.querySelector(".porque");
+let overContent = document.querySelector(".ov");
+let u2Content = document.querySelector(".proj2");
+let u3Content = document.querySelector(".proj3");
+let u5Content = document.querySelector(".proj5");
+let peContent = document.querySelector(".pep");
+let animateContent = document.querySelector(".show");
+let conContent = document.querySelector(".ovc");
+let emContent = document.querySelector(".e");
+let instaContent = document.querySelector(".ig");
+let souContent = document.querySelector(".citation");
 
 // take back to characters menu
 let charButton = document.querySelector(".char");
@@ -88,7 +102,7 @@ proj.onclick = function(){
   bioMenu.style.display= "none";
   projMenu.style.display= "flex";
   conMenu.style.display= "none";
-  souMeny.style.display= "none";
+  souMenu.style.display= "none";
   bio.style.opacity= "100%";
   proj.style.opacity= "30%";
   con.style.opacity= "100%";
@@ -190,6 +204,8 @@ insta.onclick = function(){
   em.style.opacity= "100%";
   insta.style.opacity= "30%";
 }
+
+//sources
 let souList = document.querySelector(".source");
 
 sou.onclick = function(){
