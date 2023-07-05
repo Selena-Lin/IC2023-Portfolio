@@ -143,7 +143,13 @@ ul{
     margin-top: 5%;
     justify-content: space-around;
 }
-.mozi{
+.contacts{
+    width: 100px;
+}
+.email{
+    width: 100px;
+}
+.anqila{
     display: none;
     flex-wrap: wrap;
     margin: 2%;
