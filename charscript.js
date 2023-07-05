@@ -72,21 +72,77 @@ bio.onclick = function(){
   why.style.opacity= "100%";
   //change image
   document.getElementById("change").src = "menu/huowu.webp";
+  //middle content
+  basicContent.style.display= "block";
+  extraContent.style.display= "none";
+  whyContent.style.display= "none";
+  overContent.style.display= "none";
+  u2Content.style.display= "none";
+  u3Content.style.display= "none";
+  u5Content.style.display= "none";
+  peContent.style.display= "none";
+  animateContent.style.display= "none";
+  conContent.style.display= "none";
+  emContent.style.display= "none";
+  instaContent.style.display= "none";
+  souContent.style.display= "none";
 }
 basicImg.onclick = function(){
   basicImg.style.opacity= "30%";
   extrac.style.opacity= "100%";
   why.style.opacity= "100%";
+  //middle content
+  basicContent.style.display= "block";
+  extraContent.style.display= "none";
+  whyContent.style.display= "none";
+  overContent.style.display= "none";
+  u2Content.style.display= "none";
+  u3Content.style.display= "none";
+  u5Content.style.display= "none";
+  peContent.style.display= "none";
+  animateContent.style.display= "none";
+  conContent.style.display= "none";
+  emContent.style.display= "none";
+  instaContent.style.display= "none";
+  souContent.style.display= "none";
 }
 extrac.onclick = function(){
   basicImg.style.opacity= "100%";
   extrac.style.opacity= "30%";
   why.style.opacity= "100%";
+  //middle content
+  basicContent.style.display= "none";
+  extraContent.style.display= "block";
+  whyContent.style.display= "none";
+  overContent.style.display= "none";
+  u2Content.style.display= "none";
+  u3Content.style.display= "none";
+  u5Content.style.display= "none";
+  peContent.style.display= "none";
+  animateContent.style.display= "none";
+  conContent.style.display= "none";
+  emContent.style.display= "none";
+  instaContent.style.display= "none";
+  souContent.style.display= "none";
 }
 why.onclick = function(){
   basicImg.style.opacity= "100%";
   extrac.style.opacity= "100%";
   why.style.opacity= "30%";
+  //middle content
+  basicContent.style.display= "none";
+  extraContent.style.display= "none";
+  whyContent.style.display= "block";
+  overContent.style.display= "none";
+  u2Content.style.display= "none";
+  u3Content.style.display= "none";
+  u5Content.style.display= "none";
+  peContent.style.display= "none";
+  animateContent.style.display= "none";
+  conContent.style.display= "none";
+  emContent.style.display= "none";
+  instaContent.style.display= "none";
+  souContent.style.display= "none";
 }
 
 //diaochan
@@ -116,7 +172,20 @@ proj.onclick = function(){
   animate.style.opacity= "100%";
   //change img
   document.getElementById("change").src = "menu/diaochan.webp";
-
+  //middle content
+  basicContent.style.display= "none";
+  extraContent.style.display= "none";
+  whyContent.style.display= "none";
+  overContent.style.display= "block";
+  u2Content.style.display= "none";
+  u3Content.style.display= "none";
+  u5Content.style.display= "none";
+  peContent.style.display= "none";
+  animateContent.style.display= "none";
+  conContent.style.display= "none";
+  emContent.style.display= "none";
+  instaContent.style.display= "none";
+  souContent.style.display= "none";
 }
 over.onclick = function(){
   over.style.opacity= "30%";
@@ -125,6 +194,20 @@ over.onclick = function(){
   u5.style.opacity= "100%";
   pe.style.opacity= "100%";
   animate.style.opacity= "100%";
+  //middle content
+  basicContent.style.display= "none";
+  extraContent.style.display= "none";
+  whyContent.style.display= "none";
+  overContent.style.display= "block";
+  u2Content.style.display= "none";
+  u3Content.style.display= "none";
+  u5Content.style.display= "none";
+  peContent.style.display= "none";
+  animateContent.style.display= "none";
+  conContent.style.display= "none";
+  emContent.style.display= "none";
+  instaContent.style.display= "none";
+  souContent.style.display= "none";
 }
 u2.onclick = function(){
   over.style.opacity= "100%";
@@ -133,6 +216,20 @@ u2.onclick = function(){
   u5.style.opacity= "100%";
   pe.style.opacity= "100%";
   animate.style.opacity= "100%";
+  //middle content
+  basicContent.style.display= "none";
+  extraContent.style.display= "none";
+  whyContent.style.display= "none";
+  overContent.style.display= "none";
+  u2Content.style.display= "block";
+  u3Content.style.display= "none";
+  u5Content.style.display= "none";
+  peContent.style.display= "none";
+  animateContent.style.display= "none";
+  conContent.style.display= "none";
+  emContent.style.display= "none";
+  instaContent.style.display= "none";
+  souContent.style.display= "none";
 }
 u3.onclick = function(){
   over.style.opacity= "100%";
@@ -141,6 +238,20 @@ u3.onclick = function(){
   u5.style.opacity= "100%";
   pe.style.opacity= "100%";
   animate.style.opacity= "100%";
+  //middle content
+  basicContent.style.display= "none";
+  extraContent.style.display= "none";
+  whyContent.style.display= "none";
+  overContent.style.display= "none";
+  u2Content.style.display= "none";
+  u3Content.style.display= "block";
+  u5Content.style.display= "none";
+  peContent.style.display= "none";
+  animateContent.style.display= "none";
+  conContent.style.display= "none";
+  emContent.style.display= "none";
+  instaContent.style.display= "none";
+  souContent.style.display= "none";
 }
 u5.onclick = function(){
   over.style.opacity= "100%";
@@ -149,6 +260,20 @@ u5.onclick = function(){
   u5.style.opacity= "30%";
   pe.style.opacity= "100%";
   animate.style.opacity= "100%";
+  //middle content
+  basicContent.style.display= "none";
+  extraContent.style.display= "none";
+  whyContent.style.display= "none";
+  overContent.style.display= "none";
+  u2Content.style.display= "none";
+  u3Content.style.display= "none";
+  u5Content.style.display= "block";
+  peContent.style.display= "none";
+  animateContent.style.display= "none";
+  conContent.style.display= "none";
+  emContent.style.display= "none";
+  instaContent.style.display= "none";
+  souContent.style.display= "none";
 }
 pe.onclick = function(){
   over.style.opacity= "100%";
@@ -157,6 +282,20 @@ pe.onclick = function(){
   u5.style.opacity= "100%";
   pe.style.opacity= "30%";
   animate.style.opacity= "100%";
+  //middle content
+  basicContent.style.display= "none";
+  extraContent.style.display= "none";
+  whyContent.style.display= "none";
+  overContent.style.display= "none";
+  u2Content.style.display= "none";
+  u3Content.style.display= "none";
+  u5Content.style.display= "none";
+  peContent.style.display= "block";
+  animateContent.style.display= "none";
+  conContent.style.display= "none";
+  emContent.style.display= "none";
+  instaContent.style.display= "none";
+  souContent.style.display= "none";
 }
 animate.onclick = function(){
   over.style.opacity= "100%";
@@ -165,6 +304,20 @@ animate.onclick = function(){
   u5.style.opacity= "100%";
   pe.style.opacity= "100%";
   animate.style.opacity= "30%";
+  //middle content
+  basicContent.style.display= "none";
+  extraContent.style.display= "none";
+  whyContent.style.display= "none";
+  overContent.style.display= "none";
+  u2Content.style.display= "none";
+  u3Content.style.display= "none";
+  u5Content.style.display= "none";
+  peContent.style.display= "none";
+  animateContent.style.display= "block";
+  conContent.style.display= "none";
+  emContent.style.display= "none";
+  instaContent.style.display= "none";
+  souContent.style.display= "none";
 }
 
 // shangguan
@@ -188,21 +341,77 @@ con.onclick = function(){
   insta.style.opacity= "100%";
   //change image
   document.getElementById("change").src= "menu/shangguan.webp";
+  //middle content
+  basicContent.style.display= "none";
+  extraContent.style.display= "none";
+  whyContent.style.display= "none";
+  overContent.style.display= "none";
+  u2Content.style.display= "none";
+  u3Content.style.display= "none";
+  u5Content.style.display= "none";
+  peContent.style.display= "none";
+  animateContent.style.display= "none";
+  conContent.style.display= "block";
+  emContent.style.display= "none";
+  instaContent.style.display= "none";
+  souContent.style.display= "none";
 }
 conButton.onclick = function(){
   conButton.style.opacity= "30%";
   em.style.opacity= "100%";
   insta.style.opacity= "100%";
+  //middle content
+  basicContent.style.display= "none";
+  extraContent.style.display= "none";
+  whyContent.style.display= "none";
+  overContent.style.display= "none";
+  u2Content.style.display= "none";
+  u3Content.style.display= "none";
+  u5Content.style.display= "none";
+  peContent.style.display= "none";
+  animateContent.style.display= "none";
+  conContent.style.display= "block";
+  emContent.style.display= "none";
+  instaContent.style.display= "none";
+  souContent.style.display= "none";
 }
 em.onclick= function(){
   conButton.style.opacity= "100%";
   em.style.opacity= "30%";
   insta.style.opacity= "100%";
+  //middle content
+  basicContent.style.display= "none";
+  extraContent.style.display= "none";
+  whyContent.style.display= "none";
+  overContent.style.display= "none";
+  u2Content.style.display= "none";
+  u3Content.style.display= "none";
+  u5Content.style.display= "none";
+  peContent.style.display= "none";
+  animateContent.style.display= "none";
+  conContent.style.display= "none";
+  emContent.style.display= "block";
+  instaContent.style.display= "none";
+  souContent.style.display= "none";
 }
 insta.onclick = function(){
   conButton.style.opacity= "100%";
   em.style.opacity= "100%";
   insta.style.opacity= "30%";
+  //middle content
+  basicContent.style.display= "none";
+  extraContent.style.display= "none";
+  whyContent.style.display= "none";
+  overContent.style.display= "none";
+  u2Content.style.display= "none";
+  u3Content.style.display= "none";
+  u5Content.style.display= "none";
+  peContent.style.display= "none";
+  animateContent.style.display= "none";
+  conContent.style.display= "none";
+  emContent.style.display= "none";
+  instaContent.style.display= "block";
+  souContent.style.display= "none";
 }
 
 //sources
@@ -222,4 +431,18 @@ sou.onclick = function(){
   souList.style.opacity= "30%";
   //change image
   document.getElementById("change").src= "menu/anqila.webp";
+  //middle content
+  basicContent.style.display= "none";
+  extraContent.style.display= "none";
+  whyContent.style.display= "none";
+  overContent.style.display= "none";
+  u2Content.style.display= "none";
+  u3Content.style.display= "none";
+  u5Content.style.display= "none";
+  peContent.style.display= "none";
+  animateContent.style.display= "none";
+  conContent.style.display= "none";
+  emContent.style.display= "none";
+  instaContent.style.display= "none";
+  souContent.style.display= "block";
 }

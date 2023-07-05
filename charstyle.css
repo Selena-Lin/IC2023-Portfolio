@@ -191,8 +191,46 @@ ul{
     top: 0;
     text-align: center;
 }
-
-
+/* middle pages */
+.biography{
+    display: none;
+}
+.extracurricular{
+    display: none;
+}
+.porque{
+    display: none;
+}
+.ov{
+    display: none;
+}
+.proj2{
+    display: none;
+}
+.proj3{
+    display: none;
+}
+.proj5{
+    display: none;
+}
+.pep{
+    display: none;
+}
+.show{
+    display: none;
+}
+.ovc{
+    display: none;
+}
+.e{
+    display: none;
+}
+.ig{
+    display: none;
+}
+.citation{
+    display: none;
+}
 /* right side of screen */
 .right{
     height:100%;
