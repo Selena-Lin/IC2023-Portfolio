@@ -48,11 +48,15 @@ ul{
 .charicons{
     display: flex;
     flex-wrap: wrap;
+    margin: 2%;
+    margin-top:5%;
+    justify-content: space-around;
 }
 /* makes margin around menu */
 .charmenu{
     margin:2%;
 }
+
 /* sets size, color, and text align for names */
 .charname{
     color: rgb(154, 154, 147);
@@ -90,15 +94,42 @@ ul{
 /* skins */
 .huowu{
     display: none;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 2%;
+    margin-top: 5%;
+    justify-content: space-around;
 }
+.basic{
+    width: 100px;
+}
+.extra{
+    width: 100px;
+}
+.code{
+    width: 100px;
+}
+
 .diaochan{
     display: none;
+    flex-wrap: wrap;
+    margin: 2%;
+    margin-top: 5%;
+    justify-content: space-around;
 }
 .shangguan{
     display: none;
+    flex-wrap: wrap;
+    margin: 2%;
+    margin-top: 5%;
+    justify-content: space-around;
 }
 .mozi{
     display: none;
+    flex-wrap: wrap;
+    margin: 2%;
+    margin-top: 5%;
+    justify-content: space-around;
 }
 
   /* Position of open/close buttons*/
@@ -108,6 +139,7 @@ ul{
     font-size: 40px;
     margin-top: 20%;
     display:block;
+    z-index: 1;
   }
 .close{
     display: none;
@@ -115,8 +147,18 @@ ul{
     left:80%;
     font-size: 40px;
     margin-top: 20%;
+    z-index: 1;
 }
 
+/* middle */
+.middle{
+    height:100%;
+    width:65%;
+    position: fixed;
+    margin-left: 20%;
+    top: 0;
+    text-align: center;
+}
 
 /* right side of screen */
 .right{
