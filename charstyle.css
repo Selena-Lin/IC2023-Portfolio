@@ -189,7 +189,11 @@ ul{
     position: fixed;
     margin-left: 20%;
     top: 0;
-    text-align: center;
+}
+.contenth1{
+    position: fixed;
+    text-align: right;
+    color:aliceblue;
 }
 /* middle pages */
 .biography{
