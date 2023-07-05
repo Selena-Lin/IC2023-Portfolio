@@ -117,6 +117,25 @@ ul{
     margin-top: 5%;
     justify-content: space-around;
 }
+.overview{
+    width: 100px;
+}
+.unit2{
+    width: 100px;
+}
+.unit3{
+    width: 100px;
+}
+.unit5{
+    width: 100px;
+}
+.pepe{
+    width: 100px;
+}
+.magic{
+    width: 100px;
+}
+
 .shangguan{
     display: none;
     flex-wrap: wrap;
