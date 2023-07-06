@@ -106,6 +106,7 @@ ul{
 }
 .extra{
     width: 100px;
+    margin-right: 20px;
 }
 .code{
     width: 100px;
@@ -150,6 +151,7 @@ ul{
 }
 .email{
     width: 100px;
+    margin-right: 20px;
 }
 .ins{
     width: 100px;
@@ -196,6 +198,16 @@ ul{
     text-align: right;
     color:aliceblue;
 }
+.pcontentleft{
+    color:aliceblue;
+    position: fixed;
+    top: 15%;
+    left: 25%;
+    width: 41%;
+    word-wrap: break-word;
+    font-size: 17px;
+}
+
 /* middle pages */
 .biography{
     display: none;
