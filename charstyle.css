@@ -236,6 +236,15 @@ ul{
     border-width: 5px;
     border-color: rgb(65, 65, 172);
 }
+.rightpic1{
+    position: fixed;
+    top: 14%;
+    left: 68%;
+    width: 15%;
+    border-style: double;
+    border-width: 5px;
+    border-color: rgb(65, 65, 172);
+}
 .leftpic{
     position: fixed;
     top: 55%;
