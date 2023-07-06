@@ -40,6 +40,9 @@ h1{
     /* set margin between words in menu */
     margin:2%;
 }
+.char{
+    background-color: rgba(65, 42, 119, 0.649);
+}
 /* list design */
 ul{
     list-style-type: none;
@@ -223,6 +226,15 @@ ul{
     position: fixed;
     top: 48%;
     left: 65%;
+}
+.rightpic{
+    position: fixed;
+    top: 18%;
+    left: 68%;
+    width: 15%;
+    border-style: double;
+    border-width: 5px;
+    border-color: rgb(65, 65, 172);
 }
 .leftpic{
     position: fixed;

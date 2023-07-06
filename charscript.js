@@ -42,6 +42,7 @@ let souContent = document.querySelector(".citation");
 
 // take back to characters menu
 let charButton = document.querySelector(".char");
+let skinTitle = document.querySelector(".skin");
 
 charButton.onclick = function(){
   charList.style.display= "flex";
@@ -49,6 +50,8 @@ charButton.onclick = function(){
   projMenu.style.display= "none";
   conMenu.style.display= "none";
   souMenu.style.display= "none";
+  charButton.style.backgroundColor= "rgba(65, 42, 119, 0.649)"
+  skinTitle.style.backgroundColor= "rgba(0, 0, 0, 0)"
 }
 
 //specific to huowu
@@ -66,6 +69,9 @@ bio.onclick = function(){
   proj.style.opacity= "100%";
   con.style.opacity= "100%";
   sou.style.opacity= "100%";
+  //menu highlight
+  charButton.style.backgroundColor= "rgba(0, 0, 0, 0)"
+  skinTitle.style.backgroundColor= "rgba(65, 42, 119, 0.649)"
   //skins
   basicImg.style.opacity= "30%";
   extrac.style.opacity= "100%";
@@ -163,6 +169,9 @@ proj.onclick = function(){
   proj.style.opacity= "30%";
   con.style.opacity= "100%";
   sou.style.opacity= "100%";
+  //menu highlight
+  charButton.style.backgroundColor= "rgba(0, 0, 0, 0)"
+  skinTitle.style.backgroundColor= "rgba(65, 42, 119, 0.649)"
   //skins
   over.style.opacity= "30%";
   u2.style.opacity= "100%";
@@ -335,6 +344,9 @@ con.onclick = function(){
   proj.style.opacity= "100%";
   con.style.opacity= "30%";
   sou.style.opacity= "100%";
+  //menu highlight
+  charButton.style.backgroundColor= "rgba(0, 0, 0, 0)"
+  skinTitle.style.backgroundColor= "rgba(65, 42, 119, 0.649)"
   //skins
   conButton.style.opacity= "30%";
   em.style.opacity= "100%";
@@ -427,6 +439,9 @@ sou.onclick = function(){
   proj.style.opacity= "100%";
   con.style.opacity= "100%";
   sou.style.opacity= "30%";
+  //menu highlight
+  charButton.style.backgroundColor= "rgba(0, 0, 0, 0)"
+  skinTitle.style.backgroundColor= "rgba(65, 42, 119, 0.649)"
   //skins
   souList.style.opacity= "30%";
   //change image
