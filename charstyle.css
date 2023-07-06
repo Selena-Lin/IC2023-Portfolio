@@ -198,6 +198,7 @@ ul{
     text-align: right;
     color:aliceblue;
 }
+/* bio and why */
 .pcontentleft{
     color:aliceblue;
     position: fixed;
@@ -206,6 +207,31 @@ ul{
     width: 41%;
     word-wrap: break-word;
     font-size: 17px;
+}
+.pcontentright{
+    color:aliceblue;
+    position: fixed;
+    top: 55%;
+    left: 52%;
+    width: 30%;
+    word-wrap: break-word;
+    font-size: 17px;
+}
+.header2{
+    color: aliceblue;
+    font-size: 30px;
+    position: fixed;
+    top: 48%;
+    left: 65%;
+}
+.leftpic{
+    position: fixed;
+    top: 55%;
+    left: 25%;
+    width: 25%;
+    border-style: double;
+    border-width: 5px;
+    border-color: rgb(65, 65, 172);
 }
 
 /* middle pages */
