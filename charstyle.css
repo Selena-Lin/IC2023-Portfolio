@@ -279,6 +279,18 @@ ul{
     font-size: 20px;
     color: aliceblue;
 }
+.projlink{
+    position: fixed;
+    top: 30%;
+    left: 27%;
+    width: 50%;
+}
+.pepelink{
+    position: fixed;
+    top: 30%;
+    left: 35%;
+    width: 30%;
+}
 
 /* middle pages */
 .biography{
