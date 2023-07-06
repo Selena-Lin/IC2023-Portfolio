@@ -245,6 +245,40 @@ ul{
     border-width: 5px;
     border-color: rgb(65, 65, 172);
 }
+/* clubs */
+.clubs{
+    position: fixed;
+    top: 15%;
+    left: 20%;
+    color: aliceblue;
+    width: 48%;
+    word-wrap: break-word;
+    font-size: 18px;
+}
+.nopos{
+    top: 65%;
+    color:rgb(189, 195, 201);
+    margin:4px;
+}
+.clublogos{
+    position: fixed;
+    top: 20%;
+    left: 70%;
+    display: flex-root;
+}
+.clubicon{
+    width:100px;
+    margin: 20%;
+}
+/* projects */
+.description{
+    position: fixed;
+    top: 10%;
+    left: 25%;
+    width: 55%;
+    font-size: 20px;
+    color: aliceblue;
+}
 
 /* middle pages */
 .biography{
