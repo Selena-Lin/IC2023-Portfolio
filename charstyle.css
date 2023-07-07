@@ -420,3 +420,13 @@ a{
 .mine{
     height:90px;
 }
+hr{
+    background-color:rgb(90, 88, 108);
+    border: none;
+    height: 1px;
+}
+h6{
+    margin: 0;
+    text-align: center;
+    color:rgb(90, 88, 108);
+}
