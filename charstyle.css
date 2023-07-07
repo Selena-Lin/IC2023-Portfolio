@@ -288,6 +288,15 @@ ul{
     font-size: 20px;
     color: aliceblue;
 }
+.projov{
+    position: fixed;
+    top: 30%;
+    left: 35%;
+    width: 30%;
+    border-style: inset;
+    border-width: 5px;
+    border-color: rgb(83, 83, 138);
+}
 .projlink{
     position: fixed;
     top: 30%;
