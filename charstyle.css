@@ -309,6 +309,33 @@ ul{
     left: 35%;
     width: 30%;
 }
+/* sources page */
+h4{
+    position: fixed;
+    top: 10%;
+    left: 35%;
+    font-size: 22px;
+    color: aliceblue;
+}
+.sourcelist{
+    position: fixed;
+    top: 18%;
+    width: 60%;
+}
+.list{
+    color: beige;
+    font-size: 18px;
+}
+.thanks{
+    position: fixed;
+    top: 95%;
+    color: cornsilk;
+    text-shadow: 3px 5px 4px rgb(1, 1, 30);
+    font-size: 18px;
+}
+a{
+    color: burlywood;
+}
 
 /* middle pages */
 .biography{
