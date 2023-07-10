@@ -272,7 +272,7 @@ ul{
 }
 .clublogos{
     position: fixed;
-    top: 20%;
+    top: 10%;
     left: 70%;
     display: flex-root;
 }
@@ -280,6 +280,17 @@ ul{
     width:100px;
     margin: 20%;
 }
+.clubphotos{
+    display: flex;
+    position: fixed;
+    top: 70%;
+    width: 60%;
+    justify-content: space-between;
+}
+.photo{
+    width:  10vw;
+}
+
 /* projects */
 .description{
     position: fixed;
@@ -364,6 +375,9 @@ a{
     display: none;
 }
 .show{
+    display: none;
+}
+.ecard{
     display: none;
 }
 .ovc{
