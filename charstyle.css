@@ -101,15 +101,13 @@ ul{
     flex-direction: row;
     margin: 2%;
     margin-top: 5%;
-    justify-content: left;
+    justify-content: space-around;
 }
 .basic{
     width: 100px;
-    margin-right: 20px;
 }
 .extra{
     width: 100px;
-    margin-right: 20px;
 }
 .code{
     width: 100px;
@@ -138,6 +136,9 @@ ul{
     width: 100px;
 }
 .magic{
+    width: 100px;
+}
+.roll{
     width: 100px;
 }
 
