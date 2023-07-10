@@ -147,15 +147,13 @@ ul{
     flex-wrap: wrap;
     margin: 2%;
     margin-top: 5%;
-    justify-content: left;
+    justify-content: space-around;
 }
 .contacts{
     width: 100px;
-    margin-right: 20px;
 }
 .email{
     width: 100px;
-    margin-right: 20px;
 }
 .ins{
     width: 100px;
