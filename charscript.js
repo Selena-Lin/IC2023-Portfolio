@@ -306,7 +306,7 @@ pe.onclick = function(){
   u5.style.opacity= "100%";
   pe.style.opacity= "30%";
   animate.style.opacity= "100%";
-  rr.stye.opacity= "100%";
+  rr.style.opacity= "100%";
   //middle content
   basicContent.style.display= "none";
   extraContent.style.display= "none";
