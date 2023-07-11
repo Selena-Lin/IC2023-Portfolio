@@ -283,7 +283,7 @@ ul{
 .clubphotos{
     display: flex;
     position: fixed;
-    top: 70%;
+    top: 72%;
     width: 60%;
     justify-content: space-between;
 }
