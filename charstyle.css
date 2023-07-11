@@ -39,6 +39,7 @@ body{
 h1{
     /* set margin between words in menu */
     margin:2%;
+    font-family: 'Alegreya Sans SC', sans-serif;
 }
 .char{
     background-color: rgba(65, 42, 119, 0.649);
@@ -225,6 +226,7 @@ ul{
     position: fixed;
     top: 48%;
     left: 65%;
+    font-family: 'Alegreya Sans SC', sans-serif;
 }
 .rightpic{
     position: fixed;
